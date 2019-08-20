@@ -52,7 +52,7 @@ Page({
               })
             },1500)
             setTimeout(function () {
-              wx.navigateTo({
+              wx.redirectTo({
                 url: '../success/success?type=0'
               })
             }, 2000)
